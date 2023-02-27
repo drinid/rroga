@@ -1,0 +1,37 @@
+import com.sun.jdi.ShortType;
+
+public class Main {
+    public static void main(String[] args) {
+        int[] rroga = {100, 200, 300, 400, 500, 1000};
+
+        shtoRroge(rroga);
+
+    }
+
+    public static void shtoRroge(int[] rroga) {
+        int[] newrroga = new int[7];
+
+        newrroga[0] = rroga[0];
+        newrroga[1] = rroga[1];
+        newrroga[2] = rroga[2];
+        newrroga[3] = rroga[3];
+        newrroga[4] = rroga[4];
+        newrroga[5] = rroga[5];
+        newrroga[6] = 2000;
+
+        printoVektorin(newrroga);
+    }
+
+    public static void rriterrogenepare(int[] rroga) {
+        int rroga;
+
+        rroga = rroga * 2;
+    }
+
+    public static void printoVektorin(int[] rrogat){
+        for (int i = 0; i < rrogat.length; i++) {
+            System.out.println(rrogat[i]);
+        }
+    }
+}
+
