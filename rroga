@@ -5,6 +5,7 @@ public class Main {
         int[] rroga = {100, 200, 300, 400, 500, 1000};
 
         shtoRroge(rroga);
+        rriterrogenepare(rroga);
 
     }
 
@@ -23,9 +24,9 @@ public class Main {
     }
 
     public static void rriterrogenepare(int[] rroga) {
-        int rroga;
 
-        rroga = rroga * 2;
+        rroga[0] = rroga[0] * 2;
+        printoVektorin(rroga);
     }
 
     public static void printoVektorin(int[] rrogat){
